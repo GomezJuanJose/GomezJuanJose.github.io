@@ -24,7 +24,14 @@
       
       <guid>https://GomezJuanJose.github.io/post/cenginevulkan/</guid>
       
-      <description></description>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;This is a 3D game engine made in C with Vulkan (with plans to support DirectX and OpenGL) from scratch. The project started in September 2024, after finishing a first iteration of &lt;a href=&#34;https://gomezjuanjose.github.io/post/modelone/&#34;&gt;ModelOne&lt;/a&gt;, because of the passion and the willingness to learn about game engine development. At the moment this engine is in a very early stage.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/vulkanengine.gif&#34; alt=&#34;gif&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;p&gt;Soon it&amp;rsquo;s expected to make available a PDF that explains everything.&lt;/p&gt;
+&lt;h3 id=&#34;download&#34;&gt;Download&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s expected to publish a usable version for this year.&lt;/p&gt;
+</description>
       
     </item>
     
