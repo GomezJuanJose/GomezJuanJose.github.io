@@ -13,7 +13,24 @@
       
       <guid>https://GomezJuanJose.github.io/post/catnessgames/</guid>
       
-      <description></description>
+      <description>&lt;h4 id=&#34;rol-at-catness-game-studios&#34;&gt;Rol at Catness Game Studios&lt;/h4&gt;
+&lt;p&gt;The work was primarily focused on porting games and developing tools to facilitate the job. All was developed using Unreal Engine 4, Unreal Engine 5 and C++, also it was used Perforce Helix Core as version control and TeamCity to automate the build system.&lt;/p&gt;
+&lt;h4 id=&#34;leaderboard-plugin&#34;&gt;Leaderboard plugin&lt;/h4&gt;
+&lt;p&gt;The plugin was developed with the goal of implementing in a quick and easy way the leaderboard service for each console platform, such as PS5, PS4, Switch and Xbox. It was made because there were many projects that wanted to use this service on different platforms. The most time-consuming part of developing this plugin was learning the API and how to access the service from the game.&lt;/p&gt;
+&lt;h4 id=&#34;lod-editor&#34;&gt;LOD editor&lt;/h4&gt;
+&lt;p&gt;A tool developed to bulk modify the properties of each LOD meshe. It was made for Unreal Engine 4 because the LOD groups didn&amp;rsquo;t offer all the necessary options. The most time-consuming task was to understand at an internal level how Unreal Engine edited the properties and how it regenerated the LOD to apply the changes using multithreading.&lt;/p&gt;
+&lt;h4 id=&#34;dialogue-replacer-tool&#34;&gt;Dialogue replacer tool&lt;/h4&gt;
+&lt;p&gt;A tool created to bulk replace dialogue audios that were in the game with new ones that corresponded to their respective dialogues. It was developed to save time because the quantity of the audios was greater than 500. The most complex part was to design how the assignment could be made because it couldn&amp;rsquo;t just redirect the asset path to new files due to the new structure of the dialogues. Thus, the chosen solution was to simply assign a ID to each audio related to its subtitle, regardless of whether it was a old or new.&lt;/p&gt;
+&lt;h4 id=&#34;sea-horizon-port&#34;&gt;Sea Horizon port&lt;/h4&gt;
+&lt;p&gt;It&amp;rsquo;s a roguelike game with turn-based combat, it was ported to PS5, PS4, Xbox One and Xbox Series, made in 3 months. The roles in this project were mixed, from the implementation of the obligatory services of each platform to the optimization of the game for each console. The major problem was the implementation of the Xbox services and its user management.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/seahorizon.jpg&#34; alt=&#34;SeaHorizon&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;hell-of-an-office-port&#34;&gt;Hell of an Office port&lt;/h4&gt;
+&lt;p&gt;It&amp;rsquo;s a platform game whose goal is to make the best time in each level. It was ported to PS5, PS4 and Switch, made in 6 months working with a team. The roles in this project were mixed, it started by profiling the CPU and GPU, followed by optimizing the most critical aspects, such as the skeletal meshes and it ended by implementing the services of each platform. The most time-consuming part was the leaderboard service.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/hellofanoffice.jpg&#34; alt=&#34;HellofanOffice&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;genie-reprise-port&#34;&gt;Genie Reprise port&lt;/h4&gt;
+&lt;p&gt;It&amp;rsquo;s a walking simulator for PS5, PS4, Xbox One and Xbox Series made in 2 months. The roles in this project were profiling the CPU and GPU, optimizing it to achieve a performance of 40 FPS with good visual quality (such as applying LODs, dynamic resolution and CSM) and finally implementing the essential services for each platform. The most challenging task was to find the balance between good graphics and decent performance, because it&amp;rsquo;s a walking simulator and it was not necessary to target 60 FPS.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/geniereprise.jpg&#34; alt=&#34;GenieReprise&#34;&gt;&lt;/p&gt;
+</description>
       
     </item>
     
