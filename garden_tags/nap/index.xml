@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nap on Juan José Gómez Simón</title>
+    <link>http://localhost:1313/garden_tags/nap/</link>
+    <description>Recent content in Nap on Juan José Gómez Simón</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Juan José Gómez ©</copyright>
+    <atom:link href="http://localhost:1313/garden_tags/nap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catness Game Studios</title>
+      <link>http://localhost:1313/garden/work1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/garden/work1/</guid>
+      <description>Porting and tools developer</description>
+    </item>
+  </channel>
+</rss>

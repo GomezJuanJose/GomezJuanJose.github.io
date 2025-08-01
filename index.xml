@@ -4,119 +4,52 @@
     <title>Juan José Gómez Simón</title>
     <link>https://GomezJuanJose.github.io/</link>
     <description>Recent content on Juan José Gómez Simón</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://GomezJuanJose.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Juan José Gómez ©</copyright>
+    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GomezJuanJose.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Game Engine in C&#43;&#43; with OpenGL</title>
-      <link>https://GomezJuanJose.github.io/post/modelone/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://GomezJuanJose.github.io/post/modelone/</guid>
-      
-      <description>&lt;h4 id=&#34;description&#34;&gt;Description&lt;/h4&gt;
-&lt;p&gt;ModelOne is a 3D game engine developed in 1 year for Windows, written in C++ using the OOP paradigm and various supporting libraries. With this engine, it can create not only games but also interactive applications. At the moment there are no plans to add more major features, only bug fixes, due to the development of a new engine made in Vulkan (&lt;a href=&#34;https://gomezjuanjose.github.io/post/cenginevulkan/)&#34;&gt;https://gomezjuanjose.github.io/post/cenginevulkan/)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/showcase.gif&#34; alt=&#34;gif&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Layered architecture&lt;/li&gt;
-&lt;li&gt;ECS&lt;/li&gt;
-&lt;li&gt;Renderer with OpenGL&lt;/li&gt;
-&lt;li&gt;GLSL support&lt;/li&gt;
-&lt;li&gt;OBJ loader&lt;/li&gt;
-&lt;li&gt;Basic physics system&lt;/li&gt;
-&lt;li&gt;Event system&lt;/li&gt;
-&lt;li&gt;Logger and assertions&lt;/li&gt;
-&lt;li&gt;Dear ImGui support&lt;/li&gt;
-&lt;li&gt;Audio&lt;/li&gt;
-&lt;li&gt;Profiler&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Soon it&amp;rsquo;s expected to make available a PDF that explains everything.&lt;/p&gt;
-&lt;h4 id=&#34;download&#34;&gt;Download&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/GomezJuanJose/ModelOne&#34;&gt;https://github.com/GomezJuanJose/ModelOne&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/nothings/stb&#34;&gt;https://github.com/nothings/stb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ocornut/imgui&#34;&gt;https://github.com/ocornut/imgui&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://solhsa.com/soloud/&#34;&gt;https://solhsa.com/soloud/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://glad.dav1d.de/&#34;&gt;https://glad.dav1d.de/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.glfw.org/&#34;&gt;https://www.glfw.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/g-truc/glm/tree/1.0.1&#34;&gt;https://github.com/g-truc/glm/tree/1.0.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Game Physics Engine Development by Ian Millington&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pikuma.com/&#34;&gt;https://pikuma.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@TheCherno&#34;&gt;https://www.youtube.com/@TheCherno&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      
+      <title>Vulkan game engine in C</title>
+      <link>https://GomezJuanJose.github.io/projects/vulkangameengine/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/projects/vulkangameengine/</guid>
+      <description>A game engine programmed in C using Vulkan as a didactic exercise to learn game engine development at its lowest level.</description>
     </item>
-    
     <item>
-      <title>Game Engine in C with Vulkan</title>
-      <link>https://GomezJuanJose.github.io/post/cenginevulkan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://GomezJuanJose.github.io/post/cenginevulkan/</guid>
-      
-      <description>&lt;h4 id=&#34;description&#34;&gt;Description&lt;/h4&gt;
-&lt;p&gt;This is a 3D game engine made in C with Vulkan (with plans to support DirectX and OpenGL) from scratch. The project started in September 2024, after finishing a first iteration of &lt;a href=&#34;https://gomezjuanjose.github.io/post/modelone/&#34;&gt;ModelOne&lt;/a&gt;, because of the passion and the willingness to learn about game engine development. At the moment this engine is in a very early stage.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/vulkanengine.gif&#34; alt=&#34;gif&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
-&lt;p&gt;Soon it&amp;rsquo;s expected to make available a PDF that explains everything.&lt;/p&gt;
-&lt;h4 id=&#34;download&#34;&gt;Download&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/GomezJuanJose/VulkanGameEngine/tree/master&#34;&gt;https://github.com/GomezJuanJose/VulkanGameEngine/tree/master&lt;/a&gt;
-It&amp;rsquo;s expected to publish a usable version for this year.&lt;/p&gt;
-</description>
-      
+      <title>OpenGL game engine in C&#43;&#43;</title>
+      <link>https://GomezJuanJose.github.io/projects/modelone/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/projects/modelone/</guid>
+      <description>ModelOne is primarily an early-stage game engine for Windows written in C++.</description>
     </item>
-    
     <item>
-      <title></title>
-      <link>https://GomezJuanJose.github.io/post/education/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://GomezJuanJose.github.io/post/education/</guid>
-      
+      <title>Data-Oriented Design</title>
+      <link>https://GomezJuanJose.github.io/library/book3/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/library/book3/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title></title>
-      <link>https://GomezJuanJose.github.io/post/skills/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://GomezJuanJose.github.io/post/skills/</guid>
-      
+      <title>Game Engine Architecture</title>
+      <link>https://GomezJuanJose.github.io/library/book1/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/library/book1/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>C&#43;&#43; Programmer</title>
-      <link>https://GomezJuanJose.github.io/post/catnessgames/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://GomezJuanJose.github.io/post/catnessgames/</guid>
-      
-      <description>&lt;h4 id=&#34;rol-at-catness-game-studios&#34;&gt;Rol at Catness Game Studios&lt;/h4&gt;
-&lt;p&gt;The work was primarily focused on porting games and developing tools to facilitate the job. All was developed using Unreal Engine 4, Unreal Engine 5 and C++, also it was used Perforce Helix Core as version control and TeamCity to automate the build system.&lt;/p&gt;
-&lt;h4 id=&#34;leaderboard-plugin&#34;&gt;Leaderboard plugin&lt;/h4&gt;
-&lt;p&gt;The plugin was developed with the goal of implementing in a quick and easy way the leaderboard service for each console platform, such as PS5, PS4, Switch and Xbox. It was made because there were many projects that wanted to use this service on different platforms. The most time-consuming part of developing this plugin was learning the API and how to access the service from the game.&lt;/p&gt;
-&lt;h4 id=&#34;lod-editor&#34;&gt;LOD editor&lt;/h4&gt;
-&lt;p&gt;A tool developed to bulk modify the properties of each LOD meshe. It was made for Unreal Engine 4 because the LOD groups didn&amp;rsquo;t offer all the necessary options. The most time-consuming task was to understand at an internal level how Unreal Engine edited the properties and how it regenerated the LOD to apply the changes using multithreading.&lt;/p&gt;
-&lt;h4 id=&#34;dialogue-replacer-tool&#34;&gt;Dialogue replacer tool&lt;/h4&gt;
-&lt;p&gt;A tool created to bulk replace dialogue audios that were in the game with new ones that corresponded to their respective dialogues. It was developed to save time because the quantity of the audios was greater than 500. The most complex part was to design how the assignment could be made because it couldn&amp;rsquo;t just redirect the asset path to new files due to the new structure of the dialogues. Thus, the chosen solution was to simply assign a ID to each audio related to its subtitle, regardless of whether it was a old or new.&lt;/p&gt;
-&lt;h4 id=&#34;sea-horizon-port&#34;&gt;Sea Horizon port&lt;/h4&gt;
-&lt;p&gt;It&amp;rsquo;s a roguelike game with turn-based combat, it was ported to PS5, PS4, Xbox One and Xbox Series, made in 3 months. The roles in this project were mixed, from the implementation of the obligatory services of each platform to the optimization of the game for each console. The major problem was the implementation of the Xbox services and its user management.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/seahorizon.jpg&#34; alt=&#34;SeaHorizon&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;hell-of-an-office-port&#34;&gt;Hell of an Office port&lt;/h4&gt;
-&lt;p&gt;It&amp;rsquo;s a platform game whose goal is to make the best time in each level. It was ported to PS5, PS4 and Switch, made in 6 months working with a team. The roles in this project were mixed, it started by profiling the CPU and GPU, followed by optimizing the most critical aspects, such as the skeletal meshes and it ended by implementing the services of each platform. The most time-consuming part was the leaderboard service.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/hellofanoffice.jpg&#34; alt=&#34;HellofanOffice&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;genie-reprise-port&#34;&gt;Genie Reprise port&lt;/h4&gt;
-&lt;p&gt;It&amp;rsquo;s a walking simulator for PS5, PS4, Xbox One and Xbox Series made in 2 months. The roles in this project were profiling the CPU and GPU, optimizing it to achieve a performance of 40 FPS with good visual quality (such as applying LODs, dynamic resolution and CSM) and finally implementing the essential services for each platform. The most challenging task was to find the balance between good graphics and decent performance, because it&amp;rsquo;s a walking simulator and it was not necessary to target 60 FPS.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/geniereprise.jpg&#34; alt=&#34;GenieReprise&#34;&gt;&lt;/p&gt;
-</description>
-      
+      <title>Game Physics Engine Development</title>
+      <link>https://GomezJuanJose.github.io/library/book2/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/library/book2/</guid>
+      <description></description>
     </item>
-    
+    <item>
+      <title>Catness Game Studios</title>
+      <link>https://GomezJuanJose.github.io/garden/work1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/garden/work1/</guid>
+      <description>Porting and tools developer</description>
+    </item>
   </channel>
 </rss>

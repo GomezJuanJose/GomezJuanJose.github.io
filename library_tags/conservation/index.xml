@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conservation on Juan José Gómez Simón</title>
+    <link>http://localhost:1313/library_tags/conservation/</link>
+    <description>Recent content in Conservation on Juan José Gómez Simón</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Juan José Gómez ©</copyright>
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/library_tags/conservation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data-Oriented Design</title>
+      <link>http://localhost:1313/library/book3/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/library/book3/</guid>
+      <description>Biology and Conservation of the First Panda</description>
+    </item>
+    <item>
+      <title>Game Engine Architecture</title>
+      <link>http://localhost:1313/library/book1/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/library/book1/</guid>
+      <description>Biology and Conservation of the First Panda</description>
+    </item>
+    <item>
+      <title>Game Physics Engine Development</title>
+      <link>http://localhost:1313/library/book2/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/library/book2/</guid>
+      <description>Biology and Conservation of the First Panda</description>
+    </item>
+  </channel>
+</rss>

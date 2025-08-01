@@ -2,37 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experience on Juan José Gómez Simón</title>
-    <link>https://GomezJuanJose.github.io/tags/experience/</link>
+    <link>http://localhost:1313/tags/experience/</link>
     <description>Recent content in Experience on Juan José Gómez Simón</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://GomezJuanJose.github.io/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43; Programmer</title>
-      <link>https://GomezJuanJose.github.io/post/catnessgames/</link>
+      <link>http://localhost:1313/post/catnessgames/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://GomezJuanJose.github.io/post/catnessgames/</guid>
-      
-      <description>&lt;h4 id=&#34;rol-at-catness-game-studios&#34;&gt;Rol at Catness Game Studios&lt;/h4&gt;
-&lt;p&gt;The work was primarily focused on porting games and developing tools to facilitate the job. All was developed using Unreal Engine 4, Unreal Engine 5 and C++, also it was used Perforce Helix Core as version control and TeamCity to automate the build system.&lt;/p&gt;
-&lt;h4 id=&#34;leaderboard-plugin&#34;&gt;Leaderboard plugin&lt;/h4&gt;
-&lt;p&gt;The plugin was developed with the goal of implementing in a quick and easy way the leaderboard service for each console platform, such as PS5, PS4, Switch and Xbox. It was made because there were many projects that wanted to use this service on different platforms. The most time-consuming part of developing this plugin was learning the API and how to access the service from the game.&lt;/p&gt;
-&lt;h4 id=&#34;lod-editor&#34;&gt;LOD editor&lt;/h4&gt;
-&lt;p&gt;A tool developed to bulk modify the properties of each LOD meshe. It was made for Unreal Engine 4 because the LOD groups didn&amp;rsquo;t offer all the necessary options. The most time-consuming task was to understand at an internal level how Unreal Engine edited the properties and how it regenerated the LOD to apply the changes using multithreading.&lt;/p&gt;
-&lt;h4 id=&#34;dialogue-replacer-tool&#34;&gt;Dialogue replacer tool&lt;/h4&gt;
-&lt;p&gt;A tool created to bulk replace dialogue audios that were in the game with new ones that corresponded to their respective dialogues. It was developed to save time because the quantity of the audios was greater than 500. The most complex part was to design how the assignment could be made because it couldn&amp;rsquo;t just redirect the asset path to new files due to the new structure of the dialogues. Thus, the chosen solution was to simply assign a ID to each audio related to its subtitle, regardless of whether it was a old or new.&lt;/p&gt;
-&lt;h4 id=&#34;sea-horizon-port&#34;&gt;Sea Horizon port&lt;/h4&gt;
-&lt;p&gt;It&amp;rsquo;s a roguelike game with turn-based combat, it was ported to PS5, PS4, Xbox One and Xbox Series, made in 3 months. The roles in this project were mixed, from the implementation of the obligatory services of each platform to the optimization of the game for each console. The major problem was the implementation of the Xbox services and its user management.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/seahorizon.jpg&#34; alt=&#34;SeaHorizon&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;hell-of-an-office-port&#34;&gt;Hell of an Office port&lt;/h4&gt;
-&lt;p&gt;It&amp;rsquo;s a platform game whose goal is to make the best time in each level. It was ported to PS5, PS4 and Switch, made in 6 months working with a team. The roles in this project were mixed, it started by profiling the CPU and GPU, followed by optimizing the most critical aspects, such as the skeletal meshes and it ended by implementing the services of each platform. The most time-consuming part was the leaderboard service.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/hellofanoffice.jpg&#34; alt=&#34;HellofanOffice&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;genie-reprise-port&#34;&gt;Genie Reprise port&lt;/h4&gt;
-&lt;p&gt;It&amp;rsquo;s a walking simulator for PS5, PS4, Xbox One and Xbox Series made in 2 months. The roles in this project were profiling the CPU and GPU, optimizing it to achieve a performance of 40 FPS with good visual quality (such as applying LODs, dynamic resolution and CSM) and finally implementing the essential services for each platform. The most challenging task was to find the balance between good graphics and decent performance, because it&amp;rsquo;s a walking simulator and it was not necessary to target 60 FPS.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://GomezJuanJose.github.io/images/geniereprise.jpg&#34; alt=&#34;GenieReprise&#34;&gt;&lt;/p&gt;
-</description>
-      
+      <guid>http://localhost:1313/post/catnessgames/</guid>
+      <description>&lt;h4 id=&#34;rol-at-catness-game-studios&#34;id=&#34;rol-at-catness-game-studios&#34;&#xD;&#xA;&gt;Rol at Catness Game Studios &#xD;&#xA;&lt;button &#xD;&#xA;    type=&#34;button&#34; &#xD;&#xA;    class=&#34;anchor&#34; &#xD;&#xA;    data-title=&#34;Copy link to clipboard&#34; &#xD;&#xA;    aria-label=&#34;Copy link to clipboard&#34;&#xD;&#xA;    onclick=&#34;navigator.clipboard.writeText(&amp;#34;http://localhost:1313/post/catnessgames/#rol-at-catness-game-studios&amp;#34;);this.insertAdjacentHTML(&#39;afterend&#39;, &#39;&lt;div class=link-copied&gt;Link copied&lt;/div&gt;&#39;);setTimeout(() =&gt; { document.querySelectorAll(&#39;.link-copied&#39;).forEach(el =&gt; el.remove()); }, 3000);&#34;&#xD;&#xA;&gt;&#xD;&#xA;    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; height=&#34;1em&#34; viewBox=&#34;0 96 960 960&#34; width=&#34;1em&#34;&gt;&#xD;&#xA;        &lt;path d=&#34;M450 776H280q-83 0-141.5-58.5T80 576q0-83 58.5-141.5T280 376h170v60H280q-58.333 0-99.167 40.765-40.833 40.764-40.833 99Q140 634 180.833 675q40.834 41 99.167 41h170v60ZM325 606v-60h310v60H325Zm185 170v-60h170q58.333 0 99.167-40.765 40.833-40.764 40.833-99Q820 518 779.167 477 738.333 436 680 436H510v-60h170q83 0 141.5 58.5T880 576q0 83-58.5 141.5T680 776H510Z&#34;/&gt;&#xD;&#xA;    &lt;/svg&gt;&#xD;&#xA;&lt;/button&gt;&#xD;&#xA;&lt;/h4&gt;&lt;p&gt;The work was primarily focused on porting games and developing tools to facilitate the job. All was developed using Unreal Engine 4, Unreal Engine 5 and C++, also it was used Perforce Helix Core as version control and TeamCity to automate the build system.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

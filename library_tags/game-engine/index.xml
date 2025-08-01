@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Engine on Juan José Gómez Simón</title>
+    <link>https://GomezJuanJose.github.io/library_tags/game-engine/</link>
+    <description>Recent content in Game Engine on Juan José Gómez Simón</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Juan José Gómez ©</copyright>
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GomezJuanJose.github.io/library_tags/game-engine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Engine Architecture</title>
+      <link>https://GomezJuanJose.github.io/library/book1/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/library/book1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Physics Engine Development</title>
+      <link>https://GomezJuanJose.github.io/library/book2/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/library/book2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
