@@ -7,21 +7,56 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Juan José Gómez ©</copyright>
-    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Dec 2000 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GomezJuanJose.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vulkan game engine in C</title>
       <link>https://GomezJuanJose.github.io/projects/vulkangameengine/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Dec 2000 00:00:00 +0000</pubDate>
       <guid>https://GomezJuanJose.github.io/projects/vulkangameengine/</guid>
-      <description>A game engine programmed in C using Vulkan as a didactic exercise to learn game engine development at its lowest level.</description>
+      <description>A game engine programmed in C using Vulkan as a didactic exercise to learn game engine development at its lowest level</description>
     </item>
     <item>
       <title>OpenGL game engine in C&#43;&#43;</title>
       <link>https://GomezJuanJose.github.io/projects/modelone/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Dec 2000 00:00:00 +0000</pubDate>
       <guid>https://GomezJuanJose.github.io/projects/modelone/</guid>
-      <description>ModelOne is primarily an early-stage game engine for Windows written in C++.</description>
+      <description>ModelOne is primarily an early-stage game engine for Windows written in C++</description>
+    </item>
+    <item>
+      <title>Teselator</title>
+      <link>https://GomezJuanJose.github.io/projects/teselator/</link>
+      <pubDate>Thu, 28 Dec 2000 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/projects/teselator/</guid>
+      <description>An application in which the user draws on a canvas and can convert it into tiles, which are 8x8 color-coded matrix, for use directly in DevKitPro</description>
+    </item>
+    <item>
+      <title>At Deaths Door</title>
+      <link>https://GomezJuanJose.github.io/projects/atdeathsdoor/</link>
+      <pubDate>Wed, 27 Dec 2000 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/projects/atdeathsdoor/</guid>
+      <description>A prototype to show all the features of my action-adventure framework developed in C++</description>
+    </item>
+    <item>
+      <title>Inari The Forgotten World</title>
+      <link>https://GomezJuanJose.github.io/projects/inariforgottenworld/</link>
+      <pubDate>Tue, 26 Dec 2000 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/projects/inariforgottenworld/</guid>
+      <description>Puzzle game that shows AI behavior and a quadrupedal movement system</description>
+    </item>
+    <item>
+      <title>Operation Crimson Day</title>
+      <link>https://GomezJuanJose.github.io/projects/operationcrimsonday/</link>
+      <pubDate>Mon, 25 Dec 2000 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/projects/operationcrimsonday/</guid>
+      <description>Top down shooter with a wave system, entity manager system and dynamic music system when the difficulty increases.</description>
+    </item>
+    <item>
+      <title>Una Aventura Insesperada</title>
+      <link>https://GomezJuanJose.github.io/projects/aventurainseperada/</link>
+      <pubDate>Sun, 24 Dec 2000 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/projects/aventurainseperada/</guid>
+      <description>An short puzzle videogame for NDS where the player must go throught a dungeon in a limited number of movements.</description>
     </item>
   </channel>
 </rss>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C&#43;&#43; on Juan José Gómez Simón</title>
-    <link>https://GomezJuanJose.github.io/project_tags/c&#43;&#43;/</link>
+    <link>http://localhost:1313/project_tags/c&#43;&#43;/</link>
     <description>Recent content in C&#43;&#43; on Juan José Gómez Simón</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Juan José Gómez ©</copyright>
     <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://GomezJuanJose.github.io/project_tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/project_tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenGL game engine in C&#43;&#43;</title>
-      <link>https://GomezJuanJose.github.io/projects/modelone/</link>
+      <link>http://localhost:1313/projects/modelone/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://GomezJuanJose.github.io/projects/modelone/</guid>
+      <guid>http://localhost:1313/projects/modelone/</guid>
       <description>ModelOne is primarily an early-stage game engine for Windows written in C++.</description>
     </item>
   </channel>

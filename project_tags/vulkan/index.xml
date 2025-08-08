@@ -7,14 +7,14 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Juan José Gómez ©</copyright>
-    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Dec 2000 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GomezJuanJose.github.io/project_tags/vulkan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vulkan game engine in C</title>
       <link>https://GomezJuanJose.github.io/projects/vulkangameengine/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Dec 2000 00:00:00 +0000</pubDate>
       <guid>https://GomezJuanJose.github.io/projects/vulkangameengine/</guid>
-      <description>A game engine programmed in C using Vulkan as a didactic exercise to learn game engine development at its lowest level.</description>
+      <description>A game engine programmed in C using Vulkan as a didactic exercise to learn game engine development at its lowest level</description>
     </item>
   </channel>
 </rss>

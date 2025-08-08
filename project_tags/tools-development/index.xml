@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools-Development on Juan José Gómez Simón</title>
+    <link>https://GomezJuanJose.github.io/project_tags/tools-development/</link>
+    <description>Recent content in Tools-Development on Juan José Gómez Simón</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Juan José Gómez ©</copyright>
+    <lastBuildDate>Thu, 28 Dec 2000 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GomezJuanJose.github.io/project_tags/tools-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teselator</title>
+      <link>https://GomezJuanJose.github.io/projects/teselator/</link>
+      <pubDate>Thu, 28 Dec 2000 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/projects/teselator/</guid>
+      <description>An application in which the user draws on a canvas and can convert it into tiles, which are 8x8 color-coded matrix, for use directly in DevKitPro</description>
+    </item>
+  </channel>
+</rss>

@@ -98,6 +98,7 @@ table td{
   font-size: 15px;
 }
 
+
 @media(max-width: 990px){
   .card{
     margin: 20px;
@@ -122,14 +123,15 @@ code {
   border-radius: 0px;
   color: var(--blue);
   vertical-align: middle;
+  transition: transform 0.1s;
 }
 .btn-link i {
   padding-right: 5px;
 }
 .btn-link:hover {
   text-decoration: underline;
-  transition: 0.6s;
-  transform: translate(0, 5px);
+  
+  transform: translate(0, 2px);
   color: var(--blue);
 }
 .status {
@@ -215,10 +217,11 @@ code {
   border-radius: 0px;
   color: var(--blue);
   border-bottom-color:gainsboro;
+  transition: transform 0.1s;
 }
 .see-all:hover {
-  transition: 0.6s;
-  transform: translate(0, 5px);
+  transition: 0.1s;
+  transform: translate(0, 2px);
   border-bottom-color: var(--blue);
   color: var(--blue);
 }
@@ -425,3 +428,25 @@ body { min-height: 100% !important;}
 #content {
   min-height: 100vh !important;
 }
+
+
+.arrow {
+  border: solid var(--blue);
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 3px;
+              width: 36px;
+            height: 36px;
+            transform: rotate(135deg);
+}
+
+.btn-arrow{
+            transition: transform 0.1s;
+            font-weight: bolder !important;
+}
+
+.btn-arrow:hover{
+
+  transform: translate(0, 2px);
+}
+

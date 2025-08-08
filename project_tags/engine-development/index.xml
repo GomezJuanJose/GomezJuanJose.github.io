@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Engine Development on Juan José Gómez Simón</title>
-    <link>http://localhost:1313/project_tags/engine-development/</link>
-    <description>Recent content in Engine Development on Juan José Gómez Simón</description>
+    <title>Engine-Development on Juan José Gómez Simón</title>
+    <link>https://GomezJuanJose.github.io/project_tags/engine-development/</link>
+    <description>Recent content in Engine-Development on Juan José Gómez Simón</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Juan José Gómez ©</copyright>
-    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/project_tags/engine-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Dec 2000 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GomezJuanJose.github.io/project_tags/engine-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vulkan game engine in C</title>
-      <link>http://localhost:1313/projects/vulkangameengine/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/vulkangameengine/</guid>
-      <description>Example of markdown syntax you can use to edit your content</description>
+      <link>https://GomezJuanJose.github.io/projects/vulkangameengine/</link>
+      <pubDate>Sat, 30 Dec 2000 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/projects/vulkangameengine/</guid>
+      <description>A game engine programmed in C using Vulkan as a didactic exercise to learn game engine development at its lowest level</description>
+    </item>
+    <item>
+      <title>OpenGL game engine in C&#43;&#43;</title>
+      <link>https://GomezJuanJose.github.io/projects/modelone/</link>
+      <pubDate>Fri, 29 Dec 2000 00:00:00 +0000</pubDate>
+      <guid>https://GomezJuanJose.github.io/projects/modelone/</guid>
+      <description>ModelOne is primarily an early-stage game engine for Windows written in C++</description>
     </item>
   </channel>
 </rss>
