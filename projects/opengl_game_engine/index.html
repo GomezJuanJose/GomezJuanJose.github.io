@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>OpenGL Game Engine | Juan José Gómez</title>
+
+      <link rel="stylesheet" href="/css/main.min.068ac67e674372049cea18357a91d5fdd805052202adbd23a5ddadd7c7dcb4ad.css" integrity="sha256-BorGfmdDcgSc6hg1epHV/dgFBSICrb0jpd2t18fctK0=" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+  rel="stylesheet">
+
+
+
+
+
+
+<script>
+  window.yassiConfig = {
+    openExternalLinksInNewTab:  true 
+  };
+</script>
+      <script src="/js/main.08967642be2c688614a282483ced8f20154df75ef4270eee5d3aa8d5895fe709.js" integrity="sha256-CJZ2Qr4saIYUooJIPO2PIBVN9170Jw7uXTqo1Ylf5wk=" crossorigin="anonymous"></script>
+
+
+</head>
+<body class="site-wrapper">
+  <header>
+    <div class="header-wrapper">
+    <nav class="navbar" role="navigation">
+        
+        <div class="navbar-brand">
+            <a href="/">Juan José Gómez</a>
+        </div>
+
+        
+        <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        
+        <div class="navbar-menu" id="navbar-menu">
+            <div class="navbar-nav">
+                
+  <nav>
+    <ul>
+    <li>
+      <a target="_blank" href="mailto:gomezjuanjo1999@gmail.com">gomezjuanjo1999@gmail.com</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://github.com/GomezJuanJose">Github</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://g-juanjo.itch.io/">Itch.io</a>
+    </li>
+    <li>
+      <a target="_blank" href="documents/JuanJose_Gomez_Simon_Programmer_Resume.pdf">Curriculum</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://www.linkedin.com/in/juanjose-gómez-simón">Linkedin</a>
+    </li>
+    </ul>
+  </nav>
+
+            </div>
+            <div class="navbar-actions">
+                
+                
+            </div>
+        </div>
+    </nav>
+</div>
+
+  </header>
+  <main class="site-main">
+    
+
+
+
+
+<article class="post-article">
+  <header class="post-header">
+    <h1 class="post-title">OpenGL Game Engine</h1>
+    <div class="post-meta">
+      <time datetime="2024-01-01T00:00:00&#43;00:00"> to </time>
+      
+      
+      
+      <span class="post-meta-separator">•</span>
+      
+  <div class="terms-wrapper">
+    <div class="terms-label">Tags:</div>
+    <ul class="terms-list">
+        <li class="terms-item">Game Engine</li>
+        <li class="terms-item">C&#43;&#43;</li>
+        <li class="terms-item">OpenGL</li>
+    </ul>
+  </div>
+
+      
+    </div>
+    
+    <p class="post-summary">Is primarily an early-stage game engine for Windows written in C++</p>
+    
+  </header>
+
+  
+  <div class="post-image">
+    <img src="/images/showcasegif.gif" alt="OpenGL Game Engine">
+  </div>
+  
+
+  <div class="post-content">
+    <h1 id="model-one">MODEL ONE</h1>
+<p><a href="https://choosealicense.com/licenses/mit/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
+</p>
+<h2 id="description">Description</h2>
+<p>Is a 3D game engine developed in 1 year for Windows, written in C++ using the OOP paradigm and various supporting libraries. With this engine, it can create not only games but also interactive applications. At the moment there are no plans to add more major features, only bug fixes, due to the development of a new engine made in Vulkan (<a href="https://gomezjuanjose.github.io/projects/vulkangameengine/%29" target="_blank" rel="noopener noreferrer">https://gomezjuanjose.github.io/projects/vulkangameengine/)</a>
+.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Layered architecture</li>
+<li>ECS</li>
+<li>Renderer with OpenGL</li>
+<li>GLSL support</li>
+<li>OBJ loader</li>
+<li>Basic physics system</li>
+<li>Event system</li>
+<li>Logger and assertions</li>
+<li>Dear ImGui support</li>
+<li>Audio</li>
+<li>Profiler</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>Visual Studio 2019 or later is recommended, ModelOne is untested in other development environments and focuses on Windows builds.</p>
+<p><strong>1. Clone the repository</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>  git clone --recursive https://github.com/GomezJuanJose/ModelOne.git
+</span></span></code></pre></div><p><strong>2. Generate files</strong></p>
+<p>Execute the script <code>Windows-ProjectGeneration.bat</code> located in the folder <code>/Scripts</code>. After the execution, open <code>ModelOne.sln</code> and press F5.</p>
+<h2 id="getting-started">Getting started</h2>
+<p>Open the <code>EmptyApp</code> project from the solution and mark it as the started project. It contains the basics to create a window with all the systems initialized:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;ModelOne.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;ModelOne/Core/EntryPoint.h&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ExampleLayer</span> <span style="color:#f92672">:</span> <span style="color:#66d9ef">public</span> ModelOne<span style="color:#f92672">::</span>Layer {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>	ExampleLayer() <span style="color:#f92672">:</span> Layer(<span style="color:#e6db74">&#34;ExampleLayer&#34;</span>) {
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">virtual</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">OnImGuiRender</span>(){
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Sandbox</span> <span style="color:#f92672">:</span> <span style="color:#66d9ef">public</span> ModelOne<span style="color:#f92672">::</span>Application {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>	Sandbox() {
+</span></span><span style="display:flex;"><span>		PushLayer(<span style="color:#66d9ef">new</span> ExampleLayer());
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#f92672">~</span>Sandbox() {}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ModelOne<span style="color:#f92672">::</span>Application<span style="color:#f92672">*</span> ModelOne<span style="color:#f92672">::</span>CreateApplication() {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Sandbox</span>();
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The <code>Sandbox</code> example demonstrates how to use the available systems.</p>
+<h2 id="create-a-new-proyect">Create a new proyect</h2>
+<ol>
+<li>Copy the <code>EmptyApp</code>, paste it in <code>/SandboxProjects</code> and rename it</li>
+<li>Open <code>ProjectDefinition.lua</code>, copy an existing project and paste it at the bottom of the file</li>
+<li>Change these two attributes by the name of the project</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span>project <span style="color:#e6db74">&#34;&lt;Name of the project&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>    location <span style="color:#e6db74">&#34;SandboxProjects/&lt;Name of the project&gt;&#34;</span>
+</span></span></code></pre></div><ol start="4">
+<li>Execute the <code>Windows-ProjectGeneration.bat</code> located in the folder <code>/Scripts</code></li>
+</ol>
+<h2 id="documentation">Documentation</h2>
+<p><a href="https://github.com/GomezJuanJose/ModelOne/wiki" target="_blank" rel="noopener noreferrer">https://github.com/GomezJuanJose/ModelOne/wiki</a>
+</p>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<ul>
+<li><a href="https://github.com/nothings/stb" target="_blank" rel="noopener noreferrer">https://github.com/nothings/stb</a>
+</li>
+<li><a href="https://github.com/ocornut/imgui" target="_blank" rel="noopener noreferrer">https://github.com/ocornut/imgui</a>
+</li>
+<li><a href="https://solhsa.com/soloud/" target="_blank" rel="noopener noreferrer">https://solhsa.com/soloud/</a>
+</li>
+<li><a href="https://glad.dav1d.de/" target="_blank" rel="noopener noreferrer">https://glad.dav1d.de/</a>
+</li>
+<li><a href="https://www.glfw.org/" target="_blank" rel="noopener noreferrer">https://www.glfw.org/</a>
+</li>
+<li><a href="https://github.com/g-truc/glm/tree/1.0.1" target="_blank" rel="noopener noreferrer">https://github.com/g-truc/glm/tree/1.0.1</a>
+</li>
+<li>Game Physics Engine Development by Ian Millington</li>
+<li><a href="https://pikuma.com/" target="_blank" rel="noopener noreferrer">https://pikuma.com/</a>
+</li>
+<li><a href="https://www.youtube.com/@TheCherno" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@TheCherno</a>
+</li>
+</ul>
+
+  </div>
+
+  
+</article>
+
+
+  </main>
+  <footer class="site-footer">
+    <p align="center" class="copyright">Juan José Gómez © 2026. All rights reserved.</p>
+
+  </footer>
+  
+
+</body>
+</html>

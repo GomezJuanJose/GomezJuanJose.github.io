@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>Catness Game Studios | Juan José Gómez</title>
+
+      <link rel="stylesheet" href="/css/main.min.068ac67e674372049cea18357a91d5fdd805052202adbd23a5ddadd7c7dcb4ad.css" integrity="sha256-BorGfmdDcgSc6hg1epHV/dgFBSICrb0jpd2t18fctK0=" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+  rel="stylesheet">
+
+
+
+
+
+
+<script>
+  window.yassiConfig = {
+    openExternalLinksInNewTab:  true 
+  };
+</script>
+      <script src="/js/main.08967642be2c688614a282483ced8f20154df75ef4270eee5d3aa8d5895fe709.js" integrity="sha256-CJZ2Qr4saIYUooJIPO2PIBVN9170Jw7uXTqo1Ylf5wk=" crossorigin="anonymous"></script>
+
+
+</head>
+<body class="site-wrapper">
+  <header>
+    <div class="header-wrapper">
+    <nav class="navbar" role="navigation">
+        
+        <div class="navbar-brand">
+            <a href="/">Juan José Gómez</a>
+        </div>
+
+        
+        <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        
+        <div class="navbar-menu" id="navbar-menu">
+            <div class="navbar-nav">
+                
+  <nav>
+    <ul>
+    <li>
+      <a target="_blank" href="mailto:gomezjuanjo1999@gmail.com">gomezjuanjo1999@gmail.com</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://github.com/GomezJuanJose">Github</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://g-juanjo.itch.io/">Itch.io</a>
+    </li>
+    <li>
+      <a target="_blank" href="documents/JuanJose_Gomez_Simon_Programmer_Resume.pdf">Curriculum</a>
+    </li>
+    <li>
+      <a target="_blank" href="https://www.linkedin.com/in/juanjose-gómez-simón">Linkedin</a>
+    </li>
+    </ul>
+  </nav>
+
+            </div>
+            <div class="navbar-actions">
+                
+                
+            </div>
+        </div>
+    </nav>
+</div>
+
+  </header>
+  <main class="site-main">
+    
+
+
+
+
+<article class="post-article">
+  <header class="post-header">
+    <h1 class="post-title">Catness Game Studios</h1>
+    <div class="post-meta">
+      <time datetime="0001-01-01T00:00:00&#43;00:00">January 2023 to February 2025</time>
+      
+      
+      
+      <span class="post-meta-separator">•</span>
+      
+  <div class="terms-wrapper">
+    <div class="terms-label">Tags:</div>
+    <ul class="terms-list">
+        <li class="terms-item">Tool Development</li>
+        <li class="terms-item">Porting</li>
+        <li class="terms-item">Optimization</li>
+    </ul>
+  </div>
+
+      
+    </div>
+    
+    <p class="post-summary">Porting games and developing tools to facilitate the job. All was developed using Unreal Engine 4, Unreal Engine 5 and C++</p>
+    
+  </header>
+
+  
+  <div class="post-image">
+    <img src="/images/catness.png" alt="Catness Game Studios">
+  </div>
+  
+
+  <div class="post-content">
+    <h2 id="rol-at-catness-game-studios">Rol at Catness Game Studios</h2>
+<p>The work was primarily focused on porting games and developing tools to facilitate the job. All was developed using Unreal Engine 4, Unreal Engine 5 and C++, also it was used Perforce Helix Core as version control and TeamCity to automate the build system.</p>
+<h2 id="leaderboard-plugin">Leaderboard plugin</h2>
+<p>The plugin was developed with the goal of implementing in a quick and easy way the leaderboard service for each console platform, such as PS5, PS4, Switch and Xbox. It was made because there were many projects that wanted to use this service on different platforms. The most time-consuming part of developing this plugin was learning the API and how to access the service from the game.</p>
+<h2 id="lod-editor">LOD editor</h2>
+<p>A tool developed to bulk modify the properties of each LOD meshe. It was made for Unreal Engine 4 because the LOD groups didn’t offer all the necessary options. The most time-consuming task was to understand at an internal level how Unreal Engine edited the properties and how it regenerated the LOD to apply the changes using multithreading.</p>
+<h2 id="dialogue-replacer-tool">Dialogue replacer tool</h2>
+<p>A tool created to bulk replace dialogue audios that were in the game with new ones that corresponded to their respective dialogues. It was developed to save time because the quantity of the audios was greater than 500. The most complex part was to design how the assignment could be made because it couldn’t just redirect the asset path to new files due to the new structure of the dialogues. Thus, the chosen solution was to simply assign a ID to each audio related to its subtitle, regardless of whether it was a old or new.</p>
+<h2 id="sea-horizon-port">Sea Horizon port</h2>
+<p>It’s a roguelike game with turn-based combat, it was ported to PS5, PS4, Xbox One and Xbox Series, made in 3 months. The roles in this project were mixed, from the implementation of the obligatory services of each platform to the optimization of the game for each console.
+<img src="/images/seahorizon.jpg" alt="seahorizon"></p>
+<h2 id="hell-of-an-office-port">Hell of an Office port</h2>
+<p>It’s a platform game whose goal is to make the best time in each level. It was ported to PS5, PS4 and Switch, made in 6 months working with a team. The roles in this project were mixed, it started by profiling the CPU and GPU, followed by optimizing the most critical aspects, such as the skeletal meshes and it ended by implementing the services of each platform.
+<img src="/images/hellofanoffice.jpg" alt="seahorizon"></p>
+<h2 id="genie-reprise-port">Genie Reprise port</h2>
+<p>It’s a walking simulator for PS5, PS4, Xbox One and Xbox Series made in 2 months. The roles in this project were profiling the CPU and GPU, optimizing it to achieve the target framerate with good graphical quality (such as applying LODs, dynamic resolution and CSM) and finally implementing the essential services for each platform. The most challenging task was to find the balance between good graphics and decent performance.
+<img src="/images/geniereprise.jpg" alt="seahorizon"></p>
+
+  </div>
+
+  
+</article>
+
+
+  </main>
+  <footer class="site-footer">
+    <p align="center" class="copyright">Juan José Gómez © 2026. All rights reserved.</p>
+
+  </footer>
+  
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Professionals on Juan José Gómez</title>
+    <link>http://localhost:1313/professional/</link>
+    <description>Recent content in Professionals on Juan José Gómez</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/professional/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytics Dashboard</title>
+      <link>http://localhost:1313/professional/analytics-dashboard/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/professional/analytics-dashboard/</guid>
+      <description>Beautiful, real-time analytics dashboard with customizable widgets and data visualization</description>
+    </item>
+    <item>
+      <title>API Client Library</title>
+      <link>http://localhost:1313/professional/api-client-library/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/professional/api-client-library/</guid>
+      <description>A type-safe HTTP client library with automatic retry and caching</description>
+    </item>
+  </channel>
+</rss>

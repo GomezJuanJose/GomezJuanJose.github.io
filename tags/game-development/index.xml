@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Development on Juan José Gómez</title>
+    <link>https://example.org/tags/game-development/</link>
+    <description>Recent content in Game Development on Juan José Gómez</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>At Deaths Door</title>
+      <link>https://example.org/projects/at_deaths_door/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/at_deaths_door/</guid>
+      <description>A prototype to show all the features of my action-adventure framework developed in C++</description>
+    </item>
+    <item>
+      <title>Inari The Forgotten World</title>
+      <link>https://example.org/projects/inari_the_forgotten_world/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/inari_the_forgotten_world/</guid>
+      <description>Puzzle game that shows AI behavior and a quadrupedal movement system</description>
+    </item>
+    <item>
+      <title>Operation Crimson Day</title>
+      <link>https://example.org/projects/operation_crimson_day/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/operation_crimson_day/</guid>
+      <description>Top down shooter with a wave system, entity manager system and dynamic music system when the difficulty increases.</description>
+    </item>
+    <item>
+      <title>NDS Game</title>
+      <link>https://example.org/projects/c_nds_game/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/c_nds_game/</guid>
+      <description>An short puzzle videogame for NDS where the player must go throught a dungeon in a limited number of movements.</description>
+    </item>
+    <item>
+      <title>Freelance</title>
+      <link>https://example.org/posts/freelance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/freelance/</guid>
+      <description>I have worked for Mob Entertainment most of the time and have also offered my services to small businesses.</description>
+    </item>
+  </channel>
+</rss>

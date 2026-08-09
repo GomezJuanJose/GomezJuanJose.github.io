@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Engine on Juan José Gómez</title>
+    <link>https://example.org/tags/game-engine/</link>
+    <description>Recent content in Game Engine on Juan José Gómez</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/game-engine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caliope Game Engine</title>
+      <link>https://example.org/projects/caliope_game_engine/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/caliope_game_engine/</guid>
+      <description>A game engine programmed in C++ using Vulkan from scratch as a didactic exercise to explore a new architecture oriented to data</description>
+    </item>
+    <item>
+      <title>Vulkan Game Engine</title>
+      <link>https://example.org/projects/vulkan_game_engine/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/vulkan_game_engine/</guid>
+      <description>A game engine programmed in C using Vulkan as a didactic exercise to learn game engine development at its lowest level</description>
+    </item>
+    <item>
+      <title>OpenGL Game Engine</title>
+      <link>https://example.org/projects/opengl_game_engine/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/opengl_game_engine/</guid>
+      <description>Is primarily an early-stage game engine for Windows written in C++</description>
+    </item>
+  </channel>
+</rss>

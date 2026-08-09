@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on Juan José Gómez</title>
+    <link>https://example.org/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Juan José Gómez</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caliope Game Engine</title>
+      <link>https://example.org/projects/caliope_game_engine/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/caliope_game_engine/</guid>
+      <description>A game engine programmed in C++ using Vulkan from scratch as a didactic exercise to explore a new architecture oriented to data</description>
+    </item>
+    <item>
+      <title>OpenGL Game Engine</title>
+      <link>https://example.org/projects/opengl_game_engine/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/opengl_game_engine/</guid>
+      <description>Is primarily an early-stage game engine for Windows written in C++</description>
+    </item>
+    <item>
+      <title>Teselator</title>
+      <link>https://example.org/projects/teselator/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/teselator/</guid>
+      <description>An application in which the user draws on a canvas and can convert it into tiles, which are 8x8 color-coded matrix, for use directly in DevKitPro</description>
+    </item>
+    <item>
+      <title>At Deaths Door</title>
+      <link>https://example.org/projects/at_deaths_door/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/at_deaths_door/</guid>
+      <description>A prototype to show all the features of my action-adventure framework developed in C++</description>
+    </item>
+    <item>
+      <title>Inari The Forgotten World</title>
+      <link>https://example.org/projects/inari_the_forgotten_world/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/inari_the_forgotten_world/</guid>
+      <description>Puzzle game that shows AI behavior and a quadrupedal movement system</description>
+    </item>
+    <item>
+      <title>Operation Crimson Day</title>
+      <link>https://example.org/projects/operation_crimson_day/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/operation_crimson_day/</guid>
+      <description>Top down shooter with a wave system, entity manager system and dynamic music system when the difficulty increases.</description>
+    </item>
+    <item>
+      <title>Hasten Group</title>
+      <link>https://example.org/posts/hasten_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/hasten_group/</guid>
+      <description>Working for a major client as a Senior Developer in C and C++ to improve and extend their software.</description>
+    </item>
+  </channel>
+</rss>

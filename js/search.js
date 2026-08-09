@@ -1,109 +1,145 @@
-function displayResults(results, store) {
-    const searchResults = document.getElementById('results');
-    if (!searchResults) {
-        console.error('Search results container is missing in the DOM');
+(() => {
+  // <stdin>
+  document.addEventListener("DOMContentLoaded", function() {
+    const searchToggle = document.getElementById("search-toggle");
+    const searchModal = document.getElementById("search-modal");
+    const searchClose = document.getElementById("search-close");
+    const searchInput = document.getElementById("search-input");
+    const searchResults = document.getElementById("search-results");
+    const searchOverlay = searchModal?.querySelector(".search-modal-overlay");
+    if (!searchModal || !searchToggle) return;
+    let fuse = null;
+    let searchData = [];
+    async function loadSearchIndex() {
+      try {
+        const response = await fetch("/index.json");
+        searchData = await response.json();
+        const options = {
+          keys: [
+            { name: "title", weight: 0.4 },
+            { name: "content", weight: 0.3 },
+            { name: "summary", weight: 0.2 },
+            { name: "section", weight: 0.1 }
+          ],
+          includeScore: true,
+          includeMatches: true,
+          threshold: 0.4,
+          minMatchCharLength: 2,
+          ignoreLocation: true
+        };
+        fuse = new Fuse(searchData, options);
+      } catch (error) {
+        console.error("Failed to load search index:", error);
+      }
+    }
+    function openSearch() {
+      searchModal.classList.add("active");
+      document.body.style.overflow = "hidden";
+      setTimeout(() => searchInput.focus(), 100);
+      if (!fuse) {
+        loadSearchIndex();
+      }
+    }
+    function closeSearch() {
+      searchModal.classList.remove("active");
+      document.body.style.overflow = "";
+      searchInput.value = "";
+      showEmptyState();
+    }
+    function showEmptyState() {
+      searchResults.innerHTML = `
+            <div class="search-empty">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <p>Start typing to search...</p>
+            </div>
+        `;
+    }
+    function showNoResults(query) {
+      searchResults.innerHTML = `
+            <div class="search-no-results">
+                <p>No results found for "<strong>${escapeHtml(query)}</strong>"</p>
+                <p class="search-no-results-hint">Try different keywords or check your spelling</p>
+            </div>
+        `;
+    }
+    function escapeHtml(text) {
+      const div = document.createElement("div");
+      div.textContent = text;
+      return div.innerHTML;
+    }
+    function truncate(text, length = 150) {
+      if (!text || text.length <= length) return text;
+      return text.substring(0, length) + "...";
+    }
+    function getSectionClass(section) {
+      const sectionLower = section.toLowerCase();
+      if (sectionLower === "projects") return "search-result-badge-project";
+      if (sectionLower === "posts") return "search-result-badge-post";
+      return "search-result-badge-default";
+    }
+    function performSearch(query) {
+      if (!fuse || query.trim().length < 2) {
+        showEmptyState();
         return;
+      }
+      const results = fuse.search(query);
+      if (results.length === 0) {
+        showNoResults(query);
+        return;
+      }
+      const resultsHtml = results.slice(0, 10).map((result) => {
+        const item = result.item;
+        const score = result.score;
+        const excerpt = item.summary || truncate(item.content);
+        const sectionClass = getSectionClass(item.section);
+        return `
+                <a href="${item.permalink}" class="search-result-item">
+                    <div class="search-result-header">
+                        <span class="search-result-title">${escapeHtml(item.title)}</span>
+                        <span class="search-result-badge ${sectionClass}">${escapeHtml(item.section)}</span>
+                    </div>
+                    ${excerpt ? `<p class="search-result-excerpt">${escapeHtml(excerpt)}</p>` : ""}
+                    ${item.date ? `<span class="search-result-date">${item.date}</span>` : ""}
+                </a>
+            `;
+      }).join("");
+      searchResults.innerHTML = resultsHtml;
     }
-    if (results.length) {
-        let resultList = ''
-        // Iterate and build result list elements
-        for (const n in results) {
-            const item = store[results[n].ref]
-            resultList += '<div class="card"><a href="' + item.url + '">'
-            
-            // Add image to search results
-            if (item.image) {
-                // Use the image parameter if available
-                let imgSrc = item.image;
-                // Extract the post path from the URL
-                const postPath = item.url.substring(0, item.url.lastIndexOf('/') + 1);
-                
-                // Ensure the image URL is absolute
-                if (imgSrc.startsWith('http') || imgSrc.startsWith('/')) {
-                    // If it's already an absolute URL, use it as is
-                    resultList += '<img src="' + imgSrc + '" alt="' + item.title + '">'
-                } else {
-                    // If it's a relative URL, prepend the post path
-                    resultList += '<img src="' + postPath + imgSrc + '" alt="' + item.title + '">'
-                }
-            } else {
-                // Try to find the first image in the content
-                const imgRegex = /<img[^>]*src=["']([^"']+)["'][^>]*>/i;
-                const imgMatch = imgRegex.exec(item.content);
-                
-                if (imgMatch && imgMatch[1]) {
-                    // Use the first image found in the content
-                    let imgSrc = imgMatch[1];
-                    // Extract the post path from the URL
-                    const postPath = item.url.substring(0, item.url.lastIndexOf('/') + 1);
-                    
-                    // Ensure the image URL is absolute
-                    if (imgSrc.startsWith('http') || imgSrc.startsWith('/')) {
-                        // If it's already an absolute URL, use it as is
-                        resultList += '<img src="' + imgSrc + '" alt="' + item.title + '">'
-                    } else {
-                        // If it's a relative URL, prepend the post path
-                        resultList += '<img src="' + postPath + imgSrc + '" alt="' + item.title + '">'
-                    }
-                } else {
-                    // Generate random image if no specific image is available
-                    // Use a fixed number of random images (10) from the theme's static directory
-                    const randomNumber = Math.floor(Math.random() * 10) + 1
-                    resultList += '<img src="/images/' + randomNumber + '.jpg" alt="' + item.title + '">'
-                }
-            }
-            
-            resultList += '<div class="text"><h2>' + item.title + '</h2>'
-            resultList += '<p class="small">' + (item.description || item.content.substring(0, 150) + '...') + '</p>'
-            
-            // Add metadata (tags, reading time)
-            resultList += '<p class="metadata small">'
-            if (item.tags && item.tags.length > 0) {
-                resultList += '<a class="p-category tag button" href="/tags/' + item.tags[0].toLowerCase() + '/">' + item.tags[0].toLowerCase() + '</a>'
-            }
-            // Estimate reading time (rough approximation)
-            const wordCount = item.content.split(/\s+/).length;
-            const readingTime = Math.max(1, Math.round(wordCount / 200)); // Assuming 200 words per minute
-            resultList += '&nbsp;' + readingTime + ' min read'
-            resultList += '</p></div></a></div>'
-        }
-        searchResults.innerHTML = resultList
-    } else {
-        searchResults.innerHTML = 'No results found.'
-    }
-}
-
-// Get the query parameter(s)
-const params = new URLSearchParams(window.location.search)
-const query = params.get('query')
-
-// Perform a search if there is a query
-if (query) {
-    // Retain the search input in the form when displaying results
-    document.getElementById('search-input').setAttribute('value', query)
-
-    const idx = lunr(function () {
-        this.ref('id')
-        this.field('title', {
-            boost: 15
-        })
-        this.field('tags')
-        this.field('content', {
-            boost: 10
-        })
-
-        for (const key in window.store) {
-            this.add({
-                id: key,
-                title: window.store[key].title,
-                tags: window.store[key].category,
-                content: window.store[key].content
-            })
-        }
-    })
-
-    // Perform the search
-    const results = idx.search(query)
-    // Update the list with results
-    displayResults(results, window.store)
-}
+    searchToggle.addEventListener("click", openSearch);
+    searchClose.addEventListener("click", closeSearch);
+    searchOverlay.addEventListener("click", closeSearch);
+    let searchTimeout;
+    searchInput.addEventListener("input", (e) => {
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(() => {
+        performSearch(e.target.value);
+      }, 300);
+    });
+    document.addEventListener("keydown", (e) => {
+      if ((e.key === "/" || e.key === "k" && (e.metaKey || e.ctrlKey)) && !searchModal.classList.contains("active")) {
+        e.preventDefault();
+        openSearch();
+      }
+      if (e.key === "Escape" && searchModal.classList.contains("active")) {
+        closeSearch();
+      }
+    });
+    searchResults.addEventListener("keydown", (e) => {
+      const items = searchResults.querySelectorAll(".search-result-item");
+      const activeElement = document.activeElement;
+      const currentIndex = Array.from(items).indexOf(activeElement);
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        const nextIndex = currentIndex < items.length - 1 ? currentIndex + 1 : 0;
+        items[nextIndex]?.focus();
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        const prevIndex = currentIndex > 0 ? currentIndex - 1 : items.length - 1;
+        items[prevIndex]?.focus();
+      }
+    });
+  });
+})();

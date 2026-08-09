@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tool Development on Juan José Gómez</title>
+    <link>https://example.org/tags/tool-development/</link>
+    <description>Recent content in Tool Development on Juan José Gómez</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/tool-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teselator</title>
+      <link>https://example.org/projects/teselator/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/teselator/</guid>
+      <description>An application in which the user draws on a canvas and can convert it into tiles, which are 8x8 color-coded matrix, for use directly in DevKitPro</description>
+    </item>
+    <item>
+      <title>Catness Game Studios</title>
+      <link>https://example.org/posts/catness_game_studio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/catness_game_studio/</guid>
+      <description>Porting games and developing tools to facilitate the job. All was developed using Unreal Engine 4, Unreal Engine 5 and C++</description>
+    </item>
+    <item>
+      <title>Freelance</title>
+      <link>https://example.org/posts/freelance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/freelance/</guid>
+      <description>I have worked for Mob Entertainment most of the time and have also offered my services to small businesses.</description>
+    </item>
+    <item>
+      <title>Hasten Group</title>
+      <link>https://example.org/posts/hasten_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/hasten_group/</guid>
+      <description>Working for a major client as a Senior Developer in C and C++ to improve and extend their software.</description>
+    </item>
+  </channel>
+</rss>

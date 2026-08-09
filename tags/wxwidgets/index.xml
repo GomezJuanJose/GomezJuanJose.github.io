@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WXWidgets on Juan José Gómez</title>
+    <link>https://example.org/tags/wxwidgets/</link>
+    <description>Recent content in WXWidgets on Juan José Gómez</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/wxwidgets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teselator</title>
+      <link>https://example.org/projects/teselator/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/projects/teselator/</guid>
+      <description>An application in which the user draws on a canvas and can convert it into tiles, which are 8x8 color-coded matrix, for use directly in DevKitPro</description>
+    </item>
+  </channel>
+</rss>
